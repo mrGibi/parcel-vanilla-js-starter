@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "mrGibi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "parcel": "^2.0.0-beta.1"
+  }
 }
